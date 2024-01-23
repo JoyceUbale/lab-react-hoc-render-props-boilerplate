@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 
 export default function LikeImage() {
 
-  const [likeImageCounter, setLikeImageCounter] = useState(0);
+  const LikeImageHOC = useState(0);
 
   const handleLikeImageCount = ()=>{
-    setLikeImageCounter(likeImageCounter+1);
+    setLikeImageCounter(setLikeImageCounter+1);
   }
 
   return (
